@@ -1,0 +1,68 @@
+.results-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .risk-level {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .stock-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stock-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .stock-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stock-name {
+    font-weight: bold;
+  }
+  
+  .stock-symbol {
+    color: #666;
+  }
+  
+  .stock-price {
+    color: #28a745;
+  }
+  
+  .yfinance-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .yfinance-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+  }
