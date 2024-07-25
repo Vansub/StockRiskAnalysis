@@ -1,0 +1,5 @@
+# Ignore Word temporary files
+~$*
+
+# Ignore all .docx files (optional, if you don't want to track Word documents)
+*.docx
